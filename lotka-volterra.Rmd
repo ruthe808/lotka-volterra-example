@@ -44,7 +44,7 @@ Solving the Lotke-Volterra equation:
 time <- seq(0, 25, by = 0.05)
 
 # Set some parameter values (these can change - keep it in mind):
-parameters <- c(alpha = .75, beta = 0.8, delta = 0.5, gamma = 1)
+parameters <- c(alpha = .75, beta = 0.8, delta = 0.5, gamma = 4)
 
 # Set the initial condition (prey and predator populations at t = 0).
 # Recall: x = prey, y = predator
